@@ -4,7 +4,7 @@ const lengthBtn = document.querySelector('#lengthBtn');
 const findBtn = document.querySelector('#findBtn');
 const result = document.querySelector('#result');
 
-const api = 'http://cors-anywhere.herokuapp.com/www.mrsoft.by/data.json';
+const api = 'https://cors-anywhere.herokuapp.com/www.mrsoft.by/data.json';
 
 const resultApi = fetch(api)
 	.then((el) => {
